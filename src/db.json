@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "cname": "TCS",
+      "whereAbout": "Google",
+      "selectTariff": "Point to Point",
+      "selectPayment": "Cash"
+    },
+    {
+      "id": 1,
+      "cname": "Mavan",
+      "whereAbout": "Facebook",
+      "selectTariff": "Point to Point",
+      "selectPayment": "Cash"
+    },
+    {
+      "id": 1,
+      "cname": "HCL",
+      "whereAbout": "Twitter",
+      "selectTariff": "As Direct",
+      "selectPayment": "Cash"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

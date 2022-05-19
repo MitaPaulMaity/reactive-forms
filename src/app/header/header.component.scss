@@ -1,0 +1,70 @@
+.logoImage {
+    width: 195px;
+    height: 55px;
+    top: 16px;
+    left: 13px;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+
+.Bell {
+    margin-left: 1190px;
+    width: 30px;
+    height: 20px;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.Person {
+    margin-left: 1260px;
+    width: 30px;
+    height: 20px;
+    padding: none;
+    font-size: 25px;
+    margin-top: -29px;
+}
+
+
+.InputIcon {
+    width: 187px;
+    height: 35px;
+    margin-left: 840px;
+    display: flex;
+    background-color: #F6F3F3;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: -16px;
+}
+
+.InputIcon>i {
+    font-size: 15px;
+    color: #777;
+    margin-left: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.InputIcon>input {
+    width: 140px;
+    height: 28px;
+    border: none;
+    outline: none;
+    background-color: #F6F3F3;
+    margin-left: 8px;
+}
+
+button#buttonSearch.btn.btn-outline-success {
+    width: 80px;
+    height: 35px;
+    left: 1015px;
+    top: 22px;
+    margin-left: 1035px;
+    background: #4056A1;
+    border-radius: 5px;
+    margin-top: -40px;
+    color: #FFFFFF;
+}

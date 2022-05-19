@@ -1,0 +1,108 @@
+<div class="sidebar" [ngClass]="{ 'expanded': isExpanded }">
+    <div class="header">
+      <h1 class="title">
+      </h1>
+      <div class="toggle" (click)="handleSidebarToggle()">
+        <span class="chevron"></span>
+      </div>
+    </div>
+  <div class="content">
+      <div class="link">
+        <div class="content" [routerLink]="['/summary']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img1" src="../assets/image/contract.png"><div class="title">Summary</div></span></div>
+        </div>
+      </div>
+      <div class="link with-children">
+        <div class="content" [routerLink]="['/clearbooking']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img2" src="../assets/image/booking  1.png"><div class="title">Cleared Booking</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/clients']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img3" src="../assets/image/client.png"><div class="title">Clients</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/drivers']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img4" src="../assets/image/driver 1.png"><div class="title">Drivers</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/crm']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img5" src="../assets/image/partnership 1.png"><div class="title">CRM</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/finance']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img6" src="../assets/image/money-bag 1.png"><div class="title">Finance</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/tfl']" [routerLinkActive]="'active'">
+          <div class="icon">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img7" src="../assets/image/limousine 1.png"><div class="title">TFL</div></span></div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [routerLink]="['/newbookings']" [routerLinkActive]="'active'">
+          <div>
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+              <defs></defs>
+            </svg>
+          </div>
+          <div class="display"><span><img class="Img8" src="../assets/image/car 1.png"><div class="title">New Bookings</div></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>
